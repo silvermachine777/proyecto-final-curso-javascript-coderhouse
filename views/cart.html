@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container mt-2">
+
+        <h1 class="mt-5 mb-5">TU CARRITO</h1>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Valor unidad</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="filasDeProductos">
+
+            </tbody>
+        </table>
+        <br>
+
+
+
+        <h3>PRECIO TOTAL: $ <span id="totalCarrito"></span></h3>
+
+        <!-- <br><br>
+
+        <div class="row justify-content-center">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a href="/index.html" class="text-center btn btn-info btn-lg">Volver a la tienda</a>
+            </div>
+        </div> -->
+
+    </div>
+
+
+    <script src="../assets/js/cart.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
